@@ -10,6 +10,10 @@ router.get('/menu',(req,res)=>{
   res.render('menu')
 })
 
+router.get('/menu-item',(req,res)=>{
+  res.json({item:"Pizza"})
+  })
+
 router.get('resutraunt',(req,res)=>{
   res.json({resturaunt:"Mcdonalds"})
 })
