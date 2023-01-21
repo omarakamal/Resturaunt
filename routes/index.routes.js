@@ -10,4 +10,8 @@ router.get('/menu',(req,res)=>{
   res.render('menu')
 })
 
+router.get('/menu-item',(req,res)=>{
+  res.render('menu-item')
+})
+
 module.exports = router;
