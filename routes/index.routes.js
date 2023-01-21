@@ -11,7 +11,7 @@ router.get('/menu',(req,res)=>{
 })
 
 router.get('/menu-item',(req,res)=>{
-  res.render('menu-item')
+  res.json({item:"Pizza"})
 })
 
 module.exports = router;
